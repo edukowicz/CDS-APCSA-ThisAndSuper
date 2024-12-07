@@ -17,13 +17,13 @@ public class Country extends AFCONTeam
 	}
 	public String toString(){
 		if (super.didTeamWinTournament() == true) {
-			return "The country of " + countryName + " has won the tournament!";
+			return "" + countryName + " participated in the 2017 AFCON tournament and was not knocked out of the tournament and won the tournament.";
 		}
 		else if (super.wasTeamKnockedOut() == true) {
-			return "The country of " + countryName + " was knocked out of the tournament";
+			return "" + countryName + " participated in the 2017 AFCON tournament and was knocked out of the tournament";
 		}
 		else {
-			return "The country of " + countryName + " is still in the tournament, but did not win";
+			return "" + countryName + " participated in the 2017 AFCON tournamnet and was not knocked out of the tournament and did not win the tournament.";
 		}
 	}
 }
